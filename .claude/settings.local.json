@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git init *)",
+      "Bash(git push *)",
+      "Bash(git remote *)",
+      "Bash(git rm *)",
+      "Bash(git submodule *)",
+      "Bash(node *)",
+      "Bash(cmd *)",
+      "Bash(jq --version)",
+      "Bash(ls *)",
+      "Bash(powershell *)",
+      "Bash(python *)",
+      "Bash(python3 _fix_skill.py)",
+      "Bash(rm -f .gitmodules)",
+      "Bash(rm -rf .git/modules/.claude/skills)",
+      "Bash(sed -i 's/!\\(assets\\\\/架构图\\\\.png\\)/![]\\(assets\\\\/架构图.png\\)/' SKILL.md)",
+      "Bash(sed -n '200,206p' SKILL.md)",
+      "Skill(update-config)",
+      "WebSearch"
+    ]
+  }
+}
