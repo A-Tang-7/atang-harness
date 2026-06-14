@@ -3,6 +3,7 @@
 - 在对话中使用简体中文回答
 - 所有 Skill 文件（SKILL.md）必须使用简体中文编写
 - 每次对话开始时，默认调用 /caveman 和 /humanizer Skill
+- 使用 pip 安装 Python 包时，必须替换为清华源：`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple <package>`
 
 ## Karpathy 准则（通用部分）
 
