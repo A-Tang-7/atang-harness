@@ -24,9 +24,12 @@ atang-harness/
 │       ├── skill-creator/     # Skill 创建工具
 │       ├── superpowers/       # 超级能力合集（规划/执行/验证/并行）
 │       └── tabletennis-reviewer/  # 乒乓球训练回顾
-├── Global-CLAUDE.md           # 使用 Claude Code 时需遵守的全局规则
-├── Coding-CLAUDE.md           # 使用 Claude Code 编程时需遵守的规范
-├── Vault-CLAUDE.md            # 个人知识库使用 Claude Code 时需遵守的规则
+├── Global/
+│   └── CLAUDE.md              # 使用 Claude Code 时需遵守的全局规则
+├── Coding/
+│   └── CLAUDE.md              # 使用 Claude Code 编程时需遵守的规范
+├── Vault/
+│   └── CLAUDE.md              # 个人知识库使用 Claude Code 时需遵守的规则
 └── statusline.cjs             # 终端状态栏脚本（显示模型名 + 上下文用量）
 ```
 
@@ -34,9 +37,9 @@ atang-harness/
 
 | 文件 | 用途 | 状态 |
 |------|------|------|
-| `Global-CLAUDE.md` | 全局规则 — 对话使用简体中文、Skill 文件用中文编写 | 已启用 |
-| `Coding-CLAUDE.md` | 编程规范与约定 | 待填充 |
-| `Vault-CLAUDE.md` | 知识库管理规则 | 待填充 |
+| `Global/CLAUDE.md` | 全局规则 — 对话使用简体中文、Skill 文件用中文编写 | 已启用 |
+| `Coding/CLAUDE.md` | 编程规范与约定 | 待填充 |
+| `Vault/CLAUDE.md` | 知识库管理规则 | 待填充 |
 
 ## Skills 简介
 
