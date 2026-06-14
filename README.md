@@ -32,26 +32,3 @@ atang-harness/
 │   └── CLAUDE.md              # 个人知识库使用 Claude Code 时需遵守的规则
 └── statusline.cjs             # 终端状态栏脚本（显示模型名 + 上下文用量）
 ```
-
-## CLAUDE.md 说明
-
-| 文件 | 用途 | 状态 |
-|------|------|------|
-| `Global/CLAUDE.md` | 全局规则 — 对话使用简体中文、Skill 文件用中文编写 | 已启用 |
-| `Coding/CLAUDE.md` | 编程规范与约定 | 待填充 |
-| `Vault/CLAUDE.md` | 知识库管理规则 | 待填充 |
-
-## Skills 简介
-
-经过实际使用验证的 Skills，覆盖以下场景：
-
-- **写作与润色**: `defuddle`, `humanizer`, `caveman`
-- **Obsidian 知识库**: `obsidian-cli`, `obsidian-markdown`, `obsidian-bases`, `json-canvas`, `format-obsidian`
-- **思考与分析**: `elon-musk-perspective`, `pua`
-- **开发提效**: `superpowers`, `skill-creator`, `agents`, `commands`
-- **自我迭代**: `self-improvement`
-- **专项工具**: `tabletennis-reviewer`
-
-## 使用方式
-
-将这些文件放置在任意项目的根目录或 `~/.claude/` 目录下，Claude Code 会自动加载对应的 `CLAUDE.md` 文件。Skills 放置在 `.claude/skills/` 目录下即可使用 `/skill-name` 调用。
